@@ -1,92 +1,161 @@
- <!-- ------------------------------------------------
-   GITHUB PROFILE README — Siddharth Yadav
-   Role: Software Engineer | AI/ML Developer
-   Design: Professional · Color Accents · No Emojis
--------------------------------------------------->
- 
-<h1 align="center">
-  <span style="background: linear-gradient(90deg, #00b4d8, #0077b6, #48cae4); -webkit-background-clip: text; color: transparent;">
-    Hi, I'm Siddharth Yadav
-  </span>
-</h1>
+<!-- ============================================================
+  Siddharth Yadav — GitHub Profile README
+  Gen AI · Agentic AI · ML Research Engineer
+  Design: Minimal · Professional · Light · Senior-level
+============================================================ -->
 
-<p align="center" style="color:#A5A5A5;">
-  <b>Software Engineer · AI/ML Developer · 2× GATE Qualifier · 4× Hackathon Winner</b><br>
-  Passionate about building scalable software and intelligent learning systems.
-</p>
+<div align="center">
+<img src="./hero.svg" width="860" alt="Siddharth Yadav"/>
+</div>
 
----
+<br/>
 
-<h2 style="color:#00b4d8;">About Me</h2>
+<div align="center">
 
-- Skilled in <b>C</b>, <b>C++</b>, <b>Python</b>, and <b>JavaScript</b>, combining systems-level precision with modern AI capabilities.  
-- Specialized in <b>AI/ML</b>, <b>Deep Learning</b>, and <b>MERN Stack Development</b> (MongoDB, Express, React, Node.js).  
-- Experienced in <b>API architecture</b>, <b>LLM integration</b>, and <b>production-ready deployments</b>.  
-- Pursuing <b>M.Tech (CSE)</b> at <b>MANIT Bhopal</b>, focusing on advanced time-series learning frameworks.  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddharth-yadav-671244206/)&nbsp;
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:siddharthhyadav04@gmail.com)&nbsp;
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/siddharthh04/)&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/siddhartth04)
+
+</div>
 
 ---
 
-<h2 style="color:#00b4d8;">Achievements & Highlights</h2>
+### About
 
-- <b>2× GATE Qualified (Computer Science & Engineering)</b> — strong foundation in algorithms and systems.  
-- <b>4× Hackathon Winner</b> — led AI and full-stack teams delivering deployable prototypes.  
-- <b>IEEE RCSM 2025 Contributor</b> — co-author of *Multi-Resolution FallTransformer*.  
-- Delivered <b>10+ SDE + ML projects</b>, bridging academic research with software practice.  
+Software engineer and researcher focused on **Agentic AI**, **LLM systems**, and applied ML. Currently at **MANIT Bhopal** pursuing M.Tech in CSE, with research centered on advanced time-series learning frameworks. I work across the full stack — from low-level C++ systems to production LLM pipelines.
 
----
-
-<h2 style="color:#00b4d8;">Technical Skills</h2>
-
-**Languages**  
-C · C++ · Python · JavaScript  
-
-**Frameworks & Libraries**  
-Node.js · Express · React · TailwindCSS · MERN Stack · FastAPI · Streamlit  
-
-**AI / ML & Data**  
-PyTorch · TensorFlow · Keras · Scikit-learn · XGBoost · Pandas · NumPy · OpenCV  
-LangChain · Hugging Face Transformers · OpenAI API · spaCy · NLTK · Matplotlib · Seaborn  
-
-**Databases / DevOps**  
-MongoDB · MySQL · PostgreSQL · Docker · Azure DevOps · Git · REST APIs  
+Core interests: autonomous agent architectures, RAG systems, transformer-based research, and building ML systems that ship.
 
 ---
 
-<h2 style="color:#00b4d8;">Selected Projects</h2>
+### Agentic AI Stack
 
-**MERN Stack Applications**  
-Built full-stack systems using the MERN architecture with secure REST APIs, modular Node.js backends, and responsive React UIs.  
+<div align="center">
+<img src="./pipeline.svg" width="860" alt="Agentic AI Pipeline"/>
+</div>
 
-**Anomaly Detector**  
-Machine-learning pipeline for GNSS time-series anomaly detection.  
-Achieved **97.9 % AUC** and **88.9 % accuracy**, outperforming baseline CNN/LSTM models.  
+<br/>
 
-**Drone Navigation using RL**  
-Autonomous navigation with **Reinforcement Learning (PPO + A\*)**, custom simulation, and optimized reward functions.  
-
-**AI Receptionist (HIL)**  
-Human-in-the-loop AI receptionist built using **FastAPI**, **LangChain**, and speech-to-text processing for real-time context tracking.  
-
-**Advanced Algo Bot**  
-C++ trading bot automating live market analytics via **libcurl** + **jsoncpp** integrations.  
+```
+Orchestration    LangChain · LangGraph · AutoGen · CrewAI
+Retrieval        RAG · FAISS · ChromaDB · Pinecone · Embeddings
+LLM Providers    OpenAI API · Hugging Face · Llama · Mistral
+Serving          FastAPI · Streamlit · REST · WebSockets
+Observability    LangSmith · Prompt Engineering · Evals
+```
 
 ---
 
-<h2 style="color:#00b4d8;">Contact</h2>
+### Technical Skills
 
-<p align="center">
-  <a href="mailto:siddharthhyadav04@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0077b6?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/siddharth-yadav-671244206/"><img src="https://img.shields.io/badge/LinkedIn-Profile-00b4d8?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://leetcode.com/u/siddharthh04/"><img src="https://img.shields.io/badge/LeetCode-Challenges-48cae4?style=for-the-badge&logo=leetcode&logoColor=white"></a>
-  <a href="https://github.com/siddharth04"><img src="https://img.shields.io/badge/GitHub-Portfolio-023047?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
+<div align="center">
+<img src="./skills.svg" width="860" alt="Technical Skills"/>
+</div>
 
 ---
 
-<p align="center" style="color:#48cae4; font-weight:600;">
-  “Engineering intelligence - where clean code meets smart data.”
-</p>
+### Selected Work
 
-<!-- ------------------------------------------------
-   END OF PROFILE
--------------------------------------------------->
+<table>
+<tr>
+<td width="50%">
+
+**GNSS Anomaly Detector**
+`ML · Time-Series · Research`
+
+High-performance anomaly detection for geodetic GNSS time-series data. Outperforms CNN/LSTM baselines with custom feature engineering and ensemble methods.
+
+`97.9% AUC · 88.9% Accuracy`
+
+</td>
+<td width="50%">
+
+**AI Receptionist — HIL System**
+`LLM · Agentic · Voice`
+
+Human-in-the-loop conversational AI with persistent memory, real-time STT, and LangChain-powered context tracking. Deployed via FastAPI.
+
+`LangChain · FastAPI · Whisper · Python`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Drone Navigation via RL**
+`Reinforcement Learning · Robotics`
+
+Autonomous navigation with hybrid PPO + A\* algorithm in a custom OpenAI Gym environment. Multi-objective reward shaping for efficiency and safety.
+
+`PyTorch · OpenAI Gym · Python`
+
+</td>
+<td width="50%">
+
+**Advanced Algo Bot**
+`C++ · Systems · Finance`
+
+Low-latency C++ trading bot ingesting live market data via libcurl and jsoncpp. Real-time signal generation with technical indicator computation.
+
+`C++ · libcurl · jsoncpp · REST`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Qwen3.5-9B Benchmark Suite**
+`LLM Evaluation · Gen AI`
+
+Comprehensive evaluation framework for Qwen3.5-9B across reasoning, math (GSM8K), coding (HumanEval, MBPP), safety (TruthfulQA), and long-context retrieval.
+
+`Python · Jupyter · NLP · Benchmarking`
+
+</td>
+<td width="50%">
+
+**Sorting Algorithm Visualizer**
+`Systems · C++ · SDL2`
+
+Real-time interactive visualizer for classic sorting algorithms — Bubble, Quick, Merge, Heap, Insertion, Selection — built with C++ and SDL2.
+
+`C++ · SDL2 · Algorithms`
+
+</td>
+</tr>
+</table>
+
+---
+
+### Research & Publications
+
+**2 IEEE Publications** — computational intelligence, sensor fusion, and time-series ML.
+Work presented and published through peer-reviewed IEEE conferences.
+
+---
+
+### GitHub Activity
+
+<div align="center">
+
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=siddhartth04&show_icons=true&theme=default&bg_color=f8f9fc&title_color=3730a3&text_color=475569&icon_color=4f46e5&border_color=e2e8f0&hide_border=false&rank_icon=github&custom_title=Activity" />
+&nbsp;
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddhartth04&layout=compact&theme=default&bg_color=f8f9fc&title_color=3730a3&text_color=475569&border_color=e2e8f0&hide_border=false" />
+
+</div>
+
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=siddhartth04&theme=default&background=f8f9fc&ring=4f46e5&fire=3730a3&currStreakLabel=4f46e5&border=e2e8f0&currStreakNum=1e293b&sideLabels=94a3b8&sideNums=475569&dates=94a3b8" height="150" />
+</div>
+
+---
+
+<div align="center">
+<sub><code>Engineering intelligence — where clean code meets smart data.</code></sub>
+</div>
+
+<!-- ============================================================
+  Files: hero.svg · skills.svg · pipeline.svg
+  Upload all to root of siddhartth04/siddhartth04 repo
+============================================================ -->

@@ -1,0 +1,145 @@
+<svg width="860" height="180" viewBox="0 0 860 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fc"/>
+      <stop offset="100%" style="stop-color:#eef1f8"/>
+    </linearGradient>
+    <linearGradient id="barFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3730a3"/>
+      <stop offset="100%" style="stop-color:#6366f1"/>
+    </linearGradient>
+    <linearGradient id="barFill2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0ea5e9"/>
+      <stop offset="100%" style="stop-color:#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="barFill3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="180" rx="8" fill="url(#bg2)"/>
+  <rect x="0.5" y="0.5" width="859" height="179" rx="7.5" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="0" y="0" width="3" height="180" rx="0" fill="url(#barFill)"/>
+
+  <!-- Section label -->
+  <text x="22" y="28" font-family="'Courier New', Courier, monospace" font-size="9" fill="#4f46e5" letter-spacing="3">TECHNICAL STACK</text>
+  <line x1="22" y1="35" x2="838" y2="35" stroke="#e2e8f0" stroke-width="0.8"/>
+
+  <!-- Column 1: Agentic / Gen AI -->
+  <text x="22" y="56" font-family="Georgia, serif" font-size="10.5" fill="#94a3b8" letter-spacing="1">Agentic · Gen AI</text>
+
+  <!-- LangChain -->
+  <text x="22" y="74" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">LangChain</text>
+  <rect x="110" y="65" width="88" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="110" y="65" width="0" height="6" rx="3" fill="url(#barFill)">
+    <animate attributeName="width" values="0;84" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- LangGraph -->
+  <text x="22" y="90" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">LangGraph</text>
+  <rect x="110" y="81" width="88" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="110" y="81" width="0" height="6" rx="3" fill="url(#barFill)">
+    <animate attributeName="width" values="0;78" dur="1.2s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- AutoGen / CrewAI -->
+  <text x="22" y="106" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">AutoGen / CrewAI</text>
+  <rect x="130" y="97" width="68" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="130" y="97" width="0" height="6" rx="3" fill="url(#barFill)">
+    <animate attributeName="width" values="0;62" dur="1.2s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- RAG / Vector DB -->
+  <text x="22" y="122" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">RAG · Vector DB</text>
+  <rect x="130" y="113" width="68" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="130" y="113" width="0" height="6" rx="3" fill="url(#barFill)">
+    <animate attributeName="width" values="0;65" dur="1.2s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- OpenAI / HF -->
+  <text x="22" y="138" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">OpenAI · HuggingFace</text>
+  <rect x="152" y="129" width="46" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="152" y="129" width="0" height="6" rx="3" fill="url(#barFill)">
+    <animate attributeName="width" values="0;44" dur="1.2s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- Vertical divider -->
+  <line x1="220" y1="42" x2="220" y2="165" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Column 2: ML / Research -->
+  <text x="234" y="56" font-family="Georgia, serif" font-size="10.5" fill="#94a3b8" letter-spacing="1">ML · Research</text>
+
+  <text x="234" y="74" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">PyTorch</text>
+  <rect x="290" y="65" width="88" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="290" y="65" width="0" height="6" rx="3" fill="url(#barFill2)">
+    <animate attributeName="width" values="0;86" dur="1.2s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <text x="234" y="90" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">TensorFlow</text>
+  <rect x="304" y="81" width="74" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="304" y="81" width="0" height="6" rx="3" fill="url(#barFill2)">
+    <animate attributeName="width" values="0;70" dur="1.2s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <text x="234" y="106" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">Scikit-learn · XGBoost</text>
+  <rect x="354" y="97" width="24" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="354" y="97" width="0" height="6" rx="3" fill="url(#barFill2)">
+    <animate attributeName="width" values="0;22" dur="1.2s" begin="0.55s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <text x="234" y="122" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">RL · PPO · A*</text>
+  <rect x="304" y="113" width="74" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="304" y="113" width="0" height="6" rx="3" fill="url(#barFill2)">
+    <animate attributeName="width" values="0;68" dur="1.2s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <text x="234" y="138" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">Transformers · Attention</text>
+  <rect x="380" y="129" width="0" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="234" y="129" width="88" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="234" y="129" width="0" height="6" rx="3" fill="url(#barFill2)">
+    <animate attributeName="width" values="0;72" dur="1.2s" begin="0.75s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- Vertical divider 2 -->
+  <line x1="440" y1="42" x2="440" y2="165" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Column 3: Systems / Full Stack -->
+  <text x="455" y="56" font-family="Georgia, serif" font-size="10.5" fill="#94a3b8" letter-spacing="1">Systems · Full Stack</text>
+
+  <text x="455" y="74" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">Python · C / C++</text>
+  <rect x="560" y="65" width="88" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="560" y="65" width="0" height="6" rx="3" fill="url(#barFill3)">
+    <animate attributeName="width" values="0;86" dur="1.2s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <text x="455" y="90" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">FastAPI · Streamlit</text>
+  <rect x="560" y="81" width="88" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="560" y="81" width="0" height="6" rx="3" fill="url(#barFill3)">
+    <animate attributeName="width" values="0;80" dur="1.2s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <text x="455" y="106" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">MERN Stack</text>
+  <rect x="536" y="97" width="112" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="536" y="97" width="0" height="6" rx="3" fill="url(#barFill3)">
+    <animate attributeName="width" values="0;76" dur="1.2s" begin="0.55s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <text x="455" y="122" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">Docker · Azure DevOps</text>
+  <rect x="580" y="113" width="68" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="580" y="113" width="0" height="6" rx="3" fill="url(#barFill3)">
+    <animate attributeName="width" values="0;60" dur="1.2s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <text x="455" y="138" font-family="'Courier New', Courier, monospace" font-size="10" fill="#1e293b">MongoDB · PostgreSQL</text>
+  <rect x="580" y="129" width="68" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="580" y="129" width="0" height="6" rx="3" fill="url(#barFill3)">
+    <animate attributeName="width" values="0;64" dur="1.2s" begin="0.75s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- Bottom tags row -->
+  <line x1="22" y1="152" x2="838" y2="152" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="22" y="167" font-family="'Courier New', Courier, monospace" font-size="9" fill="#94a3b8" letter-spacing="1.5">
+    spaCy · NLTK · OpenCV · Pandas · NumPy · Matplotlib · Seaborn · Keras · Redis · REST APIs · Git · JavaScript
+  </text>
+</svg>

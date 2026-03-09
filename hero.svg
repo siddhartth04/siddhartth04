@@ -1,0 +1,119 @@
+<svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Light professional background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fc"/>
+      <stop offset="100%" style="stop-color:#eef1f8"/>
+    </linearGradient>
+
+    <!-- Accent gradient: indigo to slate-blue -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3730a3"/>
+      <stop offset="60%" style="stop-color:#4f46e5"/>
+      <stop offset="100%" style="stop-color:#6366f1"/>
+    </linearGradient>
+
+    <!-- Subtle glow for accent elements -->
+    <filter id="subtleGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Very soft shadow for depth -->
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#3730a3" flood-opacity="0.08"/>
+    </filter>
+
+    <clipPath id="clip"><rect width="860" height="200" rx="8"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="200" rx="8" fill="url(#bg)"/>
+
+  <!-- Subtle dot grid pattern -->
+  <g clip-path="url(#clip)" opacity="0.35">
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#94a3b8"/>
+    </pattern>
+    <rect width="860" height="200" fill="url(#dots)"/>
+  </g>
+
+  <!-- Left accent bar — animated height -->
+  <rect x="0" y="0" width="3" height="200" rx="0" fill="url(#accentGrad)"/>
+
+  <!-- Thin top accent line -->
+  <rect x="0" y="0" width="860" height="1" fill="url(#accentGrad)" opacity="0.6"/>
+
+  <!-- Geometric neural network — right side, very subtle -->
+  <g clip-path="url(#clip)" opacity="0.06">
+    <circle cx="680" cy="60" r="40" fill="none" stroke="#4f46e5" stroke-width="0.8"/>
+    <circle cx="780" cy="100" r="60" fill="none" stroke="#4f46e5" stroke-width="0.8"/>
+    <circle cx="720" cy="160" r="30" fill="none" stroke="#4f46e5" stroke-width="0.8"/>
+    <line x1="680" y1="60" x2="780" y2="100" stroke="#4f46e5" stroke-width="0.6"/>
+    <line x1="780" y1="100" x2="720" y2="160" stroke="#4f46e5" stroke-width="0.6"/>
+    <line x1="680" y1="60" x2="720" y2="160" stroke="#4f46e5" stroke-width="0.6"/>
+  </g>
+
+  <!-- Animated subtle node pulse on right -->
+  <circle cx="780" cy="48" r="3" fill="#4f46e5" opacity="0.15">
+    <animate attributeName="r" values="2;6;2" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.2;0.08" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="130" r="2" fill="#6366f1" opacity="0.12">
+    <animate attributeName="r" values="1.5;5;1.5" dur="5s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.06;0.18;0.06" dur="5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="740" cy="170" r="2" fill="#818cf8" opacity="0.1">
+    <animate attributeName="r" values="1;4;1" dur="6s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.05;0.15;0.05" dur="6s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main name — elegant, weighted -->
+  <text x="44" y="86"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="44" font-weight="700"
+    fill="#0f172a" letter-spacing="-1">
+    Siddharth Yadav
+  </text>
+
+  <!-- Animated underline: draws in on load -->
+  <rect x="44" y="94" width="0" height="1.5" fill="url(#accentGrad)" opacity="0.8">
+    <animate attributeName="width" values="0;320" dur="1.2s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- Role line -->
+  <text x="44" y="126"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="#4f46e5" letter-spacing="2">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
+    GEN AI ENGINEER  ·  LLM &amp; AGENTIC SYSTEMS  ·  M.TECH CSE · MANIT
+  </text>
+
+  <!-- Divider hairline -->
+  <line x1="44" y1="146" x2="600" y2="146" stroke="#e2e8f0" stroke-width="1">
+    <animate attributeName="x2" values="44;600" dur="1s" begin="1s" fill="freeze"/>
+  </line>
+
+  <!-- Stat chips — minimal, inline -->
+  <g font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#64748b" letter-spacing="0.5">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.3s" fill="freeze"/>
+    <text x="44" y="168">2× GATE</text>
+    <line x1="94" y1="160" x2="94" y2="172" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="102" y="168">4× HACKATHON</text>
+    <line x1="186" y1="160" x2="186" y2="172" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="194" y="168">2 IEEE PUBLICATIONS</text>
+    <line x1="318" y1="160" x2="318" y2="172" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="326" y="168">10+ PROJECTS</text>
+  </g>
+
+  <!-- Scrolling tech strip at bottom -->
+  <rect x="0" y="183" width="860" height="17" fill="#f1f5f9" opacity="0.9"/>
+  <line x1="0" y1="183" x2="860" y2="183" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text font-family="'Courier New', Courier, monospace" font-size="9" fill="#94a3b8" letter-spacing="2.5" y="194">
+    <animate attributeName="x" values="860;-1600" dur="14s" repeatCount="indefinite"/>
+    LangChain · AutoGen · CrewAI · LangGraph · RAG · Vector DB · PyTorch · HuggingFace · OpenAI · FastAPI · MERN · Docker · C++ · Python · TensorFlow · Scikit-learn · GNSS · RL · PPO ·
+  </text>
+
+  <!-- Border: very subtle -->
+  <rect x="0.5" y="0.5" width="859" height="199" rx="7.5" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+</svg>

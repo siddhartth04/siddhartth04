@@ -1,0 +1,92 @@
+<svg width="860" height="88" viewBox="0 0 860 88" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fc"/>
+      <stop offset="100%" style="stop-color:#eef1f8"/>
+    </linearGradient>
+    <linearGradient id="pAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3730a3"/>
+      <stop offset="100%" style="stop-color:#6366f1"/>
+    </linearGradient>
+    <filter id="nodeGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="860" height="88" rx="8" fill="url(#pgBg)"/>
+  <rect x="0.5" y="0.5" width="859" height="87" rx="7.5" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="0" y="0" width="3" height="88" fill="url(#pAccent)"/>
+
+  <!-- Label -->
+  <text x="22" y="20" font-family="'Courier New', Courier, monospace" font-size="9" fill="#4f46e5" letter-spacing="3">AGENTIC AI PIPELINE</text>
+
+  <!-- Pipeline nodes -->
+  <!-- Node positions: 80, 200, 330, 470, 590, 720, 830 -->
+
+  <!-- Node 1: Input -->
+  <rect x="65" y="30" width="86" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="108" y="49" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="9.5" fill="#1e293b" font-weight="bold">INPUT</text>
+  <text x="108" y="61" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="8" fill="#94a3b8">Data · Voice</text>
+
+  <!-- Arrow + traveling dot -->
+  <line x1="151" y1="48" x2="182" y2="48" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle r="3" fill="#4f46e5" filter="url(#nodeGlow)" opacity="0.7">
+    <animateMotion path="M151,48 L182,48" dur="2.5s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="2.5s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Node 2: LLM Core -->
+  <rect x="183" y="30" width="94" height="36" rx="4" fill="white" stroke="#4f46e5" stroke-width="1.2"/>
+  <text x="230" y="49" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="9.5" fill="#4f46e5" font-weight="bold">LLM CORE</text>
+  <text x="230" y="61" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="8" fill="#94a3b8">GPT · Llama</text>
+
+  <line x1="277" y1="48" x2="308" y2="48" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle r="3" fill="#4f46e5" filter="url(#nodeGlow)" opacity="0.7">
+    <animateMotion path="M277,48 L308,48" dur="2.5s" begin="0.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="2.5s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Node 3: RAG -->
+  <rect x="309" y="30" width="86" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="352" y="49" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="9.5" fill="#1e293b" font-weight="bold">RAG</text>
+  <text x="352" y="61" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="8" fill="#94a3b8">Vector · Embed</text>
+
+  <line x1="395" y1="48" x2="426" y2="48" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle r="3" fill="#0ea5e9" filter="url(#nodeGlow)" opacity="0.7">
+    <animateMotion path="M395,48 L426,48" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Node 4: Reasoning Agent -->
+  <rect x="427" y="26" width="108" height="44" rx="4" fill="white" stroke="#4f46e5" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="481" y="47" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="9.5" fill="#4f46e5" font-weight="bold">AGENT</text>
+  <text x="481" y="60" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="8" fill="#94a3b8">Plan · Reason · Act</text>
+
+  <line x1="535" y1="48" x2="566" y2="48" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle r="3" fill="#4f46e5" filter="url(#nodeGlow)" opacity="0.7">
+    <animateMotion path="M535,48 L566,48" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Node 5: Tools -->
+  <rect x="567" y="30" width="86" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="610" y="49" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="9.5" fill="#1e293b" font-weight="bold">TOOLS</text>
+  <text x="610" y="61" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="8" fill="#94a3b8">APIs · Code · DB</text>
+
+  <line x1="653" y1="48" x2="684" y2="48" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle r="3" fill="#059669" filter="url(#nodeGlow)" opacity="0.7">
+    <animateMotion path="M653,48 L684,48" dur="2.5s" begin="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="2.5s" begin="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Node 6: Output -->
+  <rect x="685" y="30" width="86" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="728" y="49" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="9.5" fill="#1e293b" font-weight="bold">OUTPUT</text>
+  <text x="728" y="61" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="8" fill="#94a3b8">Response · Action</text>
+
+  <!-- LangChain label -->
+  <text x="795" y="20" font-family="'Courier New', Courier, monospace" font-size="8" fill="#94a3b8" text-anchor="end" letter-spacing="1">LangChain · LangGraph · AutoGen · CrewAI</text>
+</svg>

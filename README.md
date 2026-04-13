@@ -135,19 +135,7 @@ Work presented and published through peer-reviewed IEEE conferences.
 
 ---
 
-### GitHub Activity
-
-<div align="center">
-
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=siddhartth04&show_icons=true&theme=default&bg_color=f8f9fc&title_color=3730a3&text_color=475569&icon_color=4f46e5&border_color=e2e8f0&hide_border=false&rank_icon=github&custom_title=Activity" />
-&nbsp;
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddhartth04&layout=compact&theme=default&bg_color=f8f9fc&title_color=3730a3&text_color=475569&border_color=e2e8f0&hide_border=false" />
-
-</div>
-
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=siddhartth04&theme=default&background=f8f9fc&ring=4f46e5&fire=3730a3&currStreakLabel=4f46e5&border=e2e8f0&currStreakNum=1e293b&sideLabels=94a3b8&sideNums=475569&dates=94a3b8" height="150" />
-</div>
+ 
 
 ---
 
